@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.872 s <<< FAILURE! - in TestSuite
+testlogin(testcodey.mavtest)  Time elapsed: 0.099 s  <<< FAILURE!
+java.util.MissingResourceException: Can't find bundle for base name config, locale en_US
+	at testcodey.mavtest.testlogin(mavtest.java:15)
+
+testlogin2(testcodey.mavtest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.util.MissingResourceException: Can't find bundle for base name config, locale en_US
+	at testcodey.mavtest.testlogin2(mavtest.java:23)
+
